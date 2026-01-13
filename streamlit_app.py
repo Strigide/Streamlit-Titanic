@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df=pd.read_csv(r"C:\Users\user\Downloads\train.csv")
+df=pd.read_csv("data/train.csv")
 
 st.title("Projet de classification binaire Titanic")
 st.sidebar.title("Sommaire")
